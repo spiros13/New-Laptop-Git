@@ -1,0 +1,74 @@
+echo Install and Set San Francisco as System Font
+ruby -e "$(curl -fsSL https://raw.github.com/wellsriley/YosemiteSanFranciscoFont/master/install)"
+echo Install Homebrew, Postgres, wget and cask
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew tap homebrew/science
+brew install wget
+brew install postgresql
+brew install go
+brew install node
+brew install dos2unix
+brew install openssl
+brew install s3cmd
+brew install unrar
+brew install cmake
+brew install gcc
+brew install libmpc
+brew install speedtest
+brew install tree
+brew install thefuck
+brew install the_silver_searcher
+
+brew install brew-cask
+
+# Core Functionality
+echo Install Core Apps
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="~/Applications" transmit
+brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="~/Applications" java
+
+## get from App Store
+#brew cask install --appdir="/Applications" evernote
+#brew cask install --appdir="/Applications" wunderlist
+#brew cask install --appdir="/Applications" clamxav
+
+
+echo Install Dev Apps
+brew cask install --appdir="/Applications" github
+brew cask install --appdir="/Applications" heroku-toolbelt
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" pycharm-ce
+brew cask install --appdir="/Applications" macvim
+brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" sourcetree
+brew cask install --appdir="/Applications" charles
+brew cask install --appdir="/Applications" easyfind
+brew cask install --appdir="/Applications" google-chrome
+
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" calibre
+brew cask install --appdir="/Applications" cyberduck
+brew cask install --appdir="/Applications" datagrip
+brew cask install --appdir="/Applications" adobe-acrobat-reader
+brew cask install --appdir="/Applications" franz
+brew cask install --appdir="/Applications" gimp
+brew cask install --appdir="/Applications" lastpass
+brew cask install --appdir="/Applications" malwarebytes-anti-malware
+brew cask install --appdir="/Applications" postman
+brew cask install --appdir="/Applications" rstudio
+brew cask install --appdir="/Applications" private-internet-access
+brew cask install --appdir="/Applications" the-unarchiver
+brew cask install --appdir="/Applications" bear 
+brew cask install --appdir="/Applications" spectacle
+brew cask install --appdir="/Applications" steam
+brew cask install --appdir="/Applications" disk-inventory-x
+brew cask install --appdir="/Applications" kindle
+brew cask install --appdir="/Applications" utorrent
+brew cask install --appdir="/Applications" amphetamine
+
+
+#also install gif-brewery-3, netgeargeniem geforceNOW
